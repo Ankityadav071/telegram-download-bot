@@ -549,7 +549,11 @@ def main():
     app.add_handler(CallbackQueryHandler(handle_callback))
 
     log.info("🎬 Cinematic Bot is LIVE!")
-    app.run_polling(allowed_updates=Update.ALL_TYPES, drop_pending_updates=True)
+    app.run_polling(
+    allowed_updates=Update.ALL_TYPES,
+    drop_pending_updates=True,
+    close_loop=False
+    )
 
 if __name__ == "__main__":
     main()
