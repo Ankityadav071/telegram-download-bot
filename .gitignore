@@ -1,0 +1,32 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment / secret files
+.env
+*.env
+.env.local
+
+# Downloaded media files (temp)
+*.mp3
+*.mp4
+*.jpg
+*.jpeg
+*.png
+*.webm
+*.mkv
+*.m4a
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Virtual environment
+venv/
+env/
+.venv/
